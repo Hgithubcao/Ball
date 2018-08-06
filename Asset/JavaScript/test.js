@@ -30,3 +30,8 @@ wx.onTouchEnd(function (e) {
 wx.onTouchCancel(function (e) {
   console.log(e.touches)
 })
+
+// 播放音频
+var audio = wx.createInnerAudioContext()
+audio.src = "./Audio/test.mp3" // src 可以设置 http(s) 的路径，本地文件路径或者代码包文件路径
+audio.play()

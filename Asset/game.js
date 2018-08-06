@@ -1,1 +1,1 @@
-var test = require(/JavaScript/test.js)
+var test = require('./JavaScript/test.js')
